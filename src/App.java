@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 
+import br.com.dio.desafio.abstraindo.bootcamp.br.com.dio.desafio.abstraindo.Conteudo;
 import br.com.dio.desafio.abstraindo.bootcamp.br.com.dio.desafio.abstraindo.Curso;
 import br.com.dio.desafio.abstraindo.bootcamp.br.com.dio.desafio.abstraindo.Mentoria;
 
@@ -17,6 +18,9 @@ public class App {
         mentoria1.setDescricao("Descrição da Metoria Java");
         mentoria1.setData(LocalDate.now());
         System.out.println(mentoria1);
+
+        Conteudo conteudo1 = new Curso();
+        Conteudo conteudo2 = new Mentoria();
 
     }
 }
